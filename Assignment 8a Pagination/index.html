@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<div class="container">
+<h1 id="title">Pagination</h1>
+<p id="description">This is pagination Task</p> 
+<div class="table-responsive">
+<table class ="table table-bordered" id="table">
+<div id="buttons" class="d-flex justify-content-center"></div>
+<div class="pagination">
+
+    <a href="index.html" target="_blank"></a><button class="btn1" onclick="backbtn()">First</button>
+    <a href="index.html" target="_blank"></a><button class="btn2" onclick="nextbtn()">Next</button>
+    <ul>
+    <thead>
+    <tbody>
+        <li class="link active" value="1" onclick="activeLink(1)">1</li>
+        <li class="link" value="2" onclick="activeLink(2)">2</li>
+        <li class="link" value="3" onclick="activeLink(3)">3</li>
+        <li class="link" value="4" onclick="activeLink(4)">4</li>
+        <li class="link" value="5" onclick="activeLink(5)">5</li>
+        <li class="link" value="6" onclick="activeLink(6)">6</li>
+        <li class="link" value="7" onclick="activeLink(7)">7</li>
+        <li class="link" value="8" onclick="activeLink(8)">8</li>
+        <li class="link" value="9" onclick="activeLink(9)">9</li>
+        <li class="link" value="10"onclick="activeLink(10)">10</li>
+    </thead>
+</tbody>
+</ul>
+</div>
+</table>
+</div>
+</div>
+<script src="script.js"></script>
+<script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>
